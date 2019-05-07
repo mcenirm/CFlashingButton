@@ -4,6 +4,7 @@
 
 #include "stdafx.h"
 #include "Example.h"
+#include "CFlashingButton.h"
 #include "ExampleDlg.h"
 
 #ifdef _DEBUG

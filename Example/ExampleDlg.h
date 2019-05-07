@@ -24,6 +24,7 @@ public:
 // Implementation
 protected:
 	HICON m_hIcon;
+    CFlashingButton m_button1;
 
 	// Generated message map functions
 	virtual BOOL OnInitDialog();
