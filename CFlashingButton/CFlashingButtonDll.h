@@ -1,4 +1,4 @@
-// CFlashingButton.h : main header file for the CFlashingButton DLL
+// CFlashingButtonDll.h : main header file for the CFlashingButton DLL
 //
 
 #pragma once
@@ -10,8 +10,7 @@
 #include "resource.h"		// main symbols
 
 
-// CCFlashingButtonApp
-// See CFlashingButton.cpp for the implementation of this class
+// See CFlashingButtonDll.cpp for the implementation of this class
 //
 
 class CCFlashingButtonApp : public CWinApp
