@@ -18,7 +18,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CFlashingButtonDll.cpp">
+    <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CFlashingButton.cpp">
@@ -41,12 +41,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CFlashingButtonDll.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CFlashingButton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,29 +1,10 @@
-// CFlashingButton.cpp : implementation file
+// CFlashingButton.cpp : Defines the initialization routines for the DLL.
 //
 
 #include "stdafx.h"
-#include "CFlashingButton.h"
 
-
-// CFlashingButton
-
-IMPLEMENT_DYNAMIC(CFlashingButton, CButton)
-
-CFlashingButton::CFlashingButton()
-{
-
-}
-
-CFlashingButton::~CFlashingButton()
-{
-}
-
-
-BEGIN_MESSAGE_MAP(CFlashingButton, CButton)
-END_MESSAGE_MAP()
-
-
-
-// CFlashingButton message handlers
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#endif
 
 
