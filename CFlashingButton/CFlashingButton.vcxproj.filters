@@ -21,6 +21,9 @@
     <ClCompile Include="CFlashingButtonDll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CFlashingButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="CFlashingButton.def">
@@ -41,6 +44,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CFlashingButtonDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlashingButton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

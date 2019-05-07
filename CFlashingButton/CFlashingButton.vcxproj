@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CFlashingButton.cpp" />
     <ClCompile Include="CFlashingButtonDll.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -196,6 +197,7 @@
     <None Include="res\CFlashingButton.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CFlashingButton.h" />
     <ClInclude Include="CFlashingButtonDll.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
