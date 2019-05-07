@@ -10,13 +10,14 @@
 #include "resource.h"		// main symbols
 
 
+// CFlashingButtonDll
 // See CFlashingButtonDll.cpp for the implementation of this class
 //
 
-class CCFlashingButtonApp : public CWinApp
+class CFlashingButtonDll : public CWinApp
 {
 public:
-	CCFlashingButtonApp();
+	CFlashingButtonDll();
 
 // Overrides
 public:

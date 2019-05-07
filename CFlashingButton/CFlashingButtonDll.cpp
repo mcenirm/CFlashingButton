@@ -33,29 +33,29 @@
 //		details.
 //
 
-// CCFlashingButtonApp
+// CFlashingButtonDll
 
-BEGIN_MESSAGE_MAP(CCFlashingButtonApp, CWinApp)
+BEGIN_MESSAGE_MAP(CFlashingButtonDll, CWinApp)
 END_MESSAGE_MAP()
 
 
-// CCFlashingButtonApp construction
+// CFlashingButtonDll construction
 
-CCFlashingButtonApp::CCFlashingButtonApp()
+CFlashingButtonDll::CFlashingButtonDll()
 {
 	// TODO: add construction code here,
 	// Place all significant initialization in InitInstance
 }
 
 
-// The one and only CCFlashingButtonApp object
+// The one and only CFlashingButtonDll object
 
-CCFlashingButtonApp theApp;
+CFlashingButtonDll theApp;
 
 
-// CCFlashingButtonApp initialization
+// CFlashingButtonDll initialization
 
-BOOL CCFlashingButtonApp::InitInstance()
+BOOL CFlashingButtonDll::InitInstance()
 {
 	CWinApp::InitInstance();
 
