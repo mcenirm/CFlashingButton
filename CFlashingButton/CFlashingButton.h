@@ -3,7 +3,7 @@
 
 // CFlashingButton
 
-class CFlashingButton : public CButton
+class AFX_EXT_CLASS CFlashingButton : public CButton
 {
 	DECLARE_DYNAMIC(CFlashingButton)
 
