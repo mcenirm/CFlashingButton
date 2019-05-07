@@ -40,7 +40,7 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CFlashingButton.h">
+    <ClInclude Include="CFlashingButtonDll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
