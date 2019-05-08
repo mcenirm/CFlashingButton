@@ -138,6 +138,7 @@ void CFlashingButton::StopFlashing()
     if (m_timerID)
     {
         KillTimer(m_timerID);
+        Invalidate();
     }
     m_timerID = 0;
 }
